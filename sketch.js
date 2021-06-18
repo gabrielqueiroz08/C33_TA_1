@@ -69,11 +69,6 @@ function setup() {
   button.size(50,50);
   button.mouseClicked(drop);
 
-  blower = createImg('balloon.png');
-  blower.position(10,250);
-  blower.size(150,100);
-  blower.mouseClicked(airblow);
-
   mute_btn = createImg('mute.png');
   mute_btn.position(450,20);
   mute_btn.size(50,50);
@@ -107,7 +102,7 @@ function setup() {
 function draw() 
 {
   background(51);
-  image(bg_img,0,0,displayWidth+80,displayHeight);
+  image(bg_img,0,0,490,690);
 
   push();
   imageMode(CENTER);
